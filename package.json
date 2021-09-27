@@ -1,0 +1,28 @@
+{
+  "name": "weather_telegramm_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "bot": "nodemon ./bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeTaJI-JS/weather_telegram_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeTaJI-JS/weather_telegram_bot/issues"
+  },
+  "homepage": "https://github.com/BeTaJI-JS/weather_telegram_bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
